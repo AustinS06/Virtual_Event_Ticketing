@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Virtual_Event_Ticketing")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c397f606e623cb087052359dc0373cd5d831670")]
 [assembly: System.Reflection.AssemblyProductAttribute("Virtual_Event_Ticketing")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Virtual_Event_Ticketing")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

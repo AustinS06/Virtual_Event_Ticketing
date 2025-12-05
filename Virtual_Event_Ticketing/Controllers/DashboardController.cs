@@ -4,70 +4,66 @@ using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using WebApplication1.Data;
 using WebApplication1.Models;
-using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
     [Authorize]
-    public class DashboardController : Controller
+    public class DashboardController(ApplicationDbContext db) : Controller
     {
-        private readonly ApplicationDbContext _db;
-
-        public DashboardController(ApplicationDbContext db)
-        {
-            _db = db;
-        }
-
         public async Task<IActionResult> Index()
         {
-            // Get current user ID
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            // Use UTC for all comparisons
             var now = DateTime.UtcNow;
 
-            // Upcoming tickets (future events)
-            var upcomingTickets = await _db.Tickets
+            
+            var upcomingTickets = await db.Tickets
                 .Include(t => t.Event)
                 .Where(t => t.AttendeeId == userId && t.Event.EventDate >= now)
                 .ToListAsync();
 
-            // Purchase history (past events)
-            var purchaseHistory = await _db.Tickets
+            
+            var purchaseHistory = await db.Tickets
                 .Include(t => t.Event)
                 .Where(t => t.AttendeeId == userId && t.Event.EventDate < now)
                 .ToListAsync();
 
-            // My events (only for organizers)
-            var myEvents = new List<Event>();
+           
+            List<Event> myEvents = new();
             if (User.IsInRole("Organizer") || User.IsInRole("Admin"))
             {
-                myEvents = await _db.Events
+                myEvents = await db.Events
                     .Where(e => e.OrganizerId == userId)
                     .Include(e => e.Tickets)
                     .ToListAsync();
             }
 
-            // Create ViewModel
+            
+            var upcomingEvents = await db.Events
+                .Where(e => e.EventDate >= now)
+                .OrderBy(e => e.EventDate)
+                .Take(5)
+                .ToListAsync();
+
+           
+            var user = await db.Users.FirstOrDefaultAsync(u => u.Id == userId);
+
             var model = new DashboardViewModel
             {
+                FullName = user?.FullName ?? "",
+                Email = user?.Email ?? "",
+                PhoneNumber = user?.PhoneNumber ?? "",
+                
+
                 UpcomingTickets = upcomingTickets,
                 PurchaseHistory = purchaseHistory,
                 MyEvents = myEvents,
-                UserProfile = await _db.Users
-                    .Where(u => u.Id == userId)
-                    .Select(u => new UserProfileViewModel
-                    {
-                        Name = u.FullName,
-                        Email = u.Email,
-                        PhoneNumber = u.PhoneNumber,
-                        ProfilePicturePath = u.ProfilePicturePath
-                    }).FirstOrDefaultAsync()
+                UpcomingEvents = upcomingEvents
             };
 
             return View(model);
         }
     }
 }
+
 
 

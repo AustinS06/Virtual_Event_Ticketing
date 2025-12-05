@@ -1,32 +1,55 @@
 ﻿@model IEnumerable<WebApplication1.Models.Event>
 
-<h2>All Events</h2>
-<div id="events-list">
-    @foreach(var ev in Model)
+@{
+    ViewData["Title"] = "Events";
+}
+
+<h2 class="fw-bold mb-4">Browse Events</h2>
+
+<form method="get" class="mb-4">
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search events..." name="search" value="@Context.Request.Query["search"]" />
+        <button class="btn btn-primary" type="submit">Search</button>
+    </div>
+</form>
+
+@if (!Model.Any())
+{
+    <p>No events found.</p>
+}
+else
+{
+    <div class="row">
+    @foreach (var ev in Model)
     {
-        @await Html.PartialAsync("_EventPartial", ev)
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">@ev.Title</h5>
+
+                    <p class="text-muted">
+                        @ev.Category • @ev.StartDate.ToLocalTime():g
+                    </p>
+
+                    <a class="btn btn-outline-primary w-100 mb-2"
+                       asp-controller="Events"
+                       asp-action="Details"
+                       asp-route-id="@ev.Id">
+                        View Details
+                    </a>
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <a class="btn btn-primary w-100"
+                           asp-controller="Tickets"
+                           asp-action="Buy"
+                           asp-route-id="@ev.Id">
+                            Buy Tickets
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
     }
-</div>
-
-<span id="cart-count">0</span>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-    $(".add-to-cart").click(function(){
-        var eventDiv = $(this).closest(".event-card");
-        var eventId = eventDiv.data("id");
-
-        $.ajax({
-            url: "/api/cart/add",
-            method: "POST",
-            contentType: "application/json",
-            data: JSON.stringify({ Id: eventId, EventName: eventDiv.find("h4").text(), EventDate: new Date() }),
-            success: function(res){
-                $("#cart-count").text(res.count);
-                alert("Added to cart!");
-            }
-        });
-    });
-});
-</script>
+    </div>
+}

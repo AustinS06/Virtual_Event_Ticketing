@@ -857,17 +857,15 @@
   const CLASS_NAME_FADE$5 = 'fade';
   const CLASS_NAME_SHOW$8 = 'show';
 
-  /**
-   * Class definition
-   */
+ 
 
   class Alert extends BaseComponent {
-    // Getters
+    
     static get NAME() {
       return NAME$f;
     }
 
-    // Public
+    
     close() {
       const closeEvent = EventHandler.trigger(this._element, EVENT_CLOSE);
       if (closeEvent.defaultPrevented) {
@@ -878,14 +876,14 @@
       this._queueCallback(() => this._destroyElement(), this._element, isAnimated);
     }
 
-    // Private
+    
     _destroyElement() {
       this._element.remove();
       EventHandler.trigger(this._element, EVENT_CLOSED);
       this.dispose();
     }
 
-    // Static
+  
     static jQueryInterface(config) {
       return this.each(function () {
         const data = Alert.getOrCreateInstance(this);
@@ -900,29 +898,18 @@
     }
   }
 
-  /**
-   * Data API implementation
-   */
+  
 
   enableDismissTrigger(Alert, 'close');
 
-  /**
-   * jQuery
-   */
+ 
 
   defineJQueryPlugin(Alert);
 
-  /**
-   * --------------------------------------------------------------------------
-   * Bootstrap button.js
-   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
-   * --------------------------------------------------------------------------
-   */
+ 
 
 
-  /**
-   * Constants
-   */
+ 
 
   const NAME$e = 'button';
   const DATA_KEY$9 = 'bs.button';
@@ -932,23 +919,21 @@
   const SELECTOR_DATA_TOGGLE$5 = '[data-bs-toggle="button"]';
   const EVENT_CLICK_DATA_API$6 = `click${EVENT_KEY$a}${DATA_API_KEY$6}`;
 
-  /**
-   * Class definition
-   */
+  
 
   class Button extends BaseComponent {
-    // Getters
+    
     static get NAME() {
       return NAME$e;
     }
 
-    // Public
+    
     toggle() {
-      // Toggle class and sync the `aria-pressed` attribute with the return value of the `.toggle()` method
+      
       this._element.setAttribute('aria-pressed', this._element.classList.toggle(CLASS_NAME_ACTIVE$3));
     }
 
-    // Static
+    
     static jQueryInterface(config) {
       return this.each(function () {
         const data = Button.getOrCreateInstance(this);
@@ -959,9 +944,7 @@
     }
   }
 
-  /**
-   * Data API implementation
-   */
+ 
 
   EventHandler.on(document, EVENT_CLICK_DATA_API$6, SELECTOR_DATA_TOGGLE$5, event => {
     event.preventDefault();
@@ -970,23 +953,14 @@
     data.toggle();
   });
 
-  /**
-   * jQuery
-   */
+  
 
   defineJQueryPlugin(Button);
 
-  /**
-   * --------------------------------------------------------------------------
-   * Bootstrap util/swipe.js
-   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
-   * --------------------------------------------------------------------------
-   */
+  
 
 
-  /**
-   * Constants
-   */
+  
 
   const NAME$d = 'swipe';
   const EVENT_KEY$9 = '.bs.swipe';

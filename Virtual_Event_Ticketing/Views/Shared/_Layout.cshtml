@@ -6,13 +6,31 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
+@using Microsoft.AspNetCore.Identity
+@using WebApplication1.Models
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
 <nav>
-    <a href="/">Home</a> |
-    <a href="/Events">Events</a> |
-    <a href="/Dashboard">Dashboard</a>
+    <a asp-controller="Home" asp-action="Index">Home</a> |
+    <a asp-controller="Events" asp-action="Index">Events</a> |
+    <a asp-controller="Dashboard" asp-action="Index">Dashboard</a>
+    
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <text> | <a asp-controller="Tickets" asp-action="MyTickets">My Tickets</a></text>
+    }
+
+    
 </nav>
+
 <div class="container">
     @RenderBody()
 </div>
+
+<footer class="border-top mt-5 py-3 text-center">
+    <span class="text-muted">© @DateTime.Now.Year EventPortal. All rights reserved.</span>
+</footer>
+
 </body>
 </html>

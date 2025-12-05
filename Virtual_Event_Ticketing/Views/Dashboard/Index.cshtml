@@ -1,27 +1,117 @@
 ﻿@model WebApplication1.Models.DashboardViewModel
+@{
+    ViewData["Title"] = "Dashboard";
+}
 
-<h2>My Dashboard</h2>
+<h2 class="fw-bold mb-4">Your Dashboard</h2>
 
-<h3>Upcoming Events</h3>
-<ul>
-    @foreach(var ev in Model.UpcomingTickets)
-    {
-        <li>@ev.Event.Title - @ev.Event.EventDate.ToLocalTime().ToString("g")</li>
-    }
-</ul>
+<div class="row mb-5">
+    
+    <div class="col-md-3">
+        <div class="card shadow-sm">
+            <div class="card-body text-center">
 
-<h3>My Tickets</h3>
-<ul>
-    @foreach(var ticket in Model.UpcomingTickets)
-    {
-        <li>@ticket.EventName - @ticket.EventDate.ToLocalTime().ToString("g")</li>
-    }
-</ul>
+                <h4>@Model.FullName</h4>
+                <p class="text-muted">@Model.Email</p>
 
-<h3>Purchase History</h3>
-<ul>
-    @foreach(var ticket in Model.PurchaseHistory)
-    {
-        <li>@ticket.EventName - @ticket.EventDate.ToLocalTime().ToString("g")</li>
-    }
-</ul>
+                
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="col-md-9">
+
+       
+        <h4 class="mb-3">Upcoming Events</h4>
+
+        @if (Model.UpcomingEvents == null || !Model.UpcomingEvents.Any())
+        {
+            <p>You have no upcoming events.</p>
+        }
+        else
+        {
+            <ul class="list-group mb-4">
+                @foreach (var ev in Model.UpcomingEvents)
+                {
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <strong>@ev.Title</strong><br />
+                            <small class="text-muted">@ev.EventDate.ToLocalTime().ToString("g")</small>
+                        </div>
+                        <span class="badge bg-primary">Event</span>
+                    </li>
+                }
+            </ul>
+        }
+
+
+       
+        <h4 class="mb-3">Your Tickets</h4>
+
+        @if (Model.UpcomingTickets == null || !Model.UpcomingTickets.Any())
+        {
+            <p>No tickets for upcoming events.</p>
+        }
+        else
+        {
+            <ul class="list-group mb-4">
+                @foreach (var ticket in Model.UpcomingTickets)
+                {
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <strong>@ticket.Event.Title</strong><br />
+                            <small class="text-muted">@ticket.Event.EventDate.ToLocalTime().ToString("g")</small>
+                        </div>
+                        <span class="badge bg-success">Upcoming</span>
+                    </li>
+                }
+            </ul>
+        }
+
+    
+        <h4 class="mb-3">Past Events</h4>
+
+        @if (Model.PurchaseHistory == null || !Model.PurchaseHistory.Any())
+        {
+            <p>No past events yet.</p>
+        }
+        else
+        {
+            <ul class="list-group">
+                @foreach (var ticket in Model.PurchaseHistory)
+                {
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <strong>@ticket.Event.Title</strong><br />
+                            <small class="text-muted">@ticket.Event.EventDate.ToLocalTime().ToString("g")</small>
+                        </div>
+                        <span class="badge bg-secondary">Completed</span>
+                    </li>
+                }
+            </ul>
+        }
+
+       
+        @if (Model.MyEvents != null && Model.MyEvents.Any())
+        {
+            <h4 class="mt-4 mb-3">My Organized Events</h4>
+
+            <ul class="list-group">
+                @foreach (var ev in Model.MyEvents)
+                {
+                    <li class="list-group-item d-flex justify-content-between">
+                        <div>
+                            <strong>@ev.Title</strong><br />
+                            <small class="text-muted">@ev.EventDate.ToLocalTime().ToString("g")</small>
+                        </div>
+                        <span class="badge bg-info">Organizer</span>
+                    </li>
+                }
+            </ul>
+        }
+
+    </div>
+</div>
+
+

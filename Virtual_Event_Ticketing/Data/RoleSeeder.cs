@@ -20,8 +20,7 @@ public static class RoleSeeder
                 await roleManager.CreateAsync(new IdentityRole(r));
         }
 
-
-// Create default admin if none exists
+        
         var adminEmail = "admin@eventportal.local";
         var admin = await userManager.FindByEmailAsync(adminEmail);
         if (admin == null)

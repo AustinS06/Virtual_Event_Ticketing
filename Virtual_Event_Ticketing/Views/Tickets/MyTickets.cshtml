@@ -1,0 +1,40 @@
+﻿@model IEnumerable<WebApplication1.Models.Ticket>
+
+<h2>My Tickets</h2>
+
+@if (!Model.Any())
+{
+    <p>You haven't purchased any tickets yet.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Quantity</th>
+            <th>Total Price</th>
+            <th>Purchase Date</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var ticket in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-controller="Events" asp-action="Details" asp-route-id="@ticket.EventId">
+                        @ticket.Event.Title
+                    </a>
+                </td>
+                <td>@ticket.Event.StartDate.ToLocalTime():g</td>
+                <td>@ticket.Event.Location</td>
+                <td>@ticket.Quantity</td>
+                <td>@ticket.TotalPrice:C</td>
+                <td>@ticket.PurchaseDate.ToLocalTime():g</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}

@@ -7,7 +7,12 @@ public class Ticket
     public DateTime EventDate { get; set; }
     public int EventId { get; set; }
     public decimal Price { get; set; }
+    public string BuyerId { get; set; }
+    public ApplicationUser Buyer { get; set; } 
+    public int Quantity { get; set; }
     public Event Event { get; set; } = null!;
+    public DateTime PurchaseDate { get; set; }
+    public decimal TotalPrice { get; set; }
     public string AttendeeId { get; set; } = "";
 
 }

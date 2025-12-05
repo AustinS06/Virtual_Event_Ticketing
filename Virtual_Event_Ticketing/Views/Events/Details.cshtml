@@ -1,0 +1,14 @@
+﻿@model WebApplication1.Models.Event
+
+<h2 class="fw-bold mb-3">@Model.Title</h2>
+
+<p class="text-muted">
+    Category: @Model.Category <br />
+    Date: @Model.StartDate.ToLocalTime():g
+</p>
+
+<p>@Model.Description</p>
+
+<a asp-controller="Tickets" asp-action="Buy" asp-route-id="@Model.Id" class="btn btn-success mb-3">
+    Buy Tickets
+</a>

@@ -224,7 +224,6 @@ C:\Users\austi\RiderProjects\WebApplication1\Virtual_Event_Ticketing\obj\Debug\n
 C:\Users\austi\RiderProjects\WebApplication1\Virtual_Event_Ticketing\obj\Debug\net9.0\compressed\p5fyne70s4-kbrnm935zg.gz
 C:\Users\austi\RiderProjects\WebApplication1\Virtual_Event_Ticketing\obj\Debug\net9.0\compressed\8wbtdo60wg-8vyfqsqgz1.gz
 C:\Users\austi\RiderProjects\WebApplication1\Virtual_Event_Ticketing\obj\Debug\net9.0\compressed\4y26c519dj-y7v9cxd14o.gz
-C:\Users\austi\RiderProjects\WebApplication1\Virtual_Event_Ticketing\obj\Debug\net9.0\compressed\ivm52mn8hs-u9q1upor1n.gz
 C:\Users\austi\RiderProjects\WebApplication1\Virtual_Event_Ticketing\obj\Debug\net9.0\compressed\n8ftcgfw5i-h1s4sie4z3.gz
 C:\Users\austi\RiderProjects\WebApplication1\Virtual_Event_Ticketing\obj\Debug\net9.0\compressed\hysv0tr36d-4d85u1mtcx.gz
 C:\Users\austi\RiderProjects\WebApplication1\Virtual_Event_Ticketing\obj\Debug\net9.0\compressed\6em8zlq5ix-0j3bgjxly4.gz
@@ -255,3 +254,5 @@ C:\Users\austi\RiderProjects\WebApplication1\Virtual_Event_Ticketing\obj\Debug\n
 C:\Users\austi\RiderProjects\WebApplication1\Virtual_Event_Ticketing\obj\Debug\net9.0\Virtual_Event_Ticketing.pdb
 C:\Users\austi\RiderProjects\WebApplication1\Virtual_Event_Ticketing\obj\Debug\net9.0\Virtual_Event_Ticketing.genruntimeconfig.cache
 C:\Users\austi\RiderProjects\WebApplication1\Virtual_Event_Ticketing\obj\Debug\net9.0\ref\Virtual_Event_Ticketing.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual_Event_Ticketing\obj\Debug\net9.0\Virtual_Event_Ticketing.sourcelink.json
+C:\Users\austi\RiderProjects\WebApplication1\Virtual_Event_Ticketing\obj\Debug\net9.0\compressed\ivm52mn8hs-svttx41elt.gz
