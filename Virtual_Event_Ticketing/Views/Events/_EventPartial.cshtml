@@ -1,0 +1,8 @@
+﻿@model WebApplication1.Models.Event
+
+<div class="event-card" data-id="@Model.Id">
+    <h4>@Model.Title</h4>
+    <p>@Model.Category • @Model.StartDate.ToLocalTime().ToString("g")</p>
+    <p>@Model.Description</p>
+    <button class="add-to-cart">Add to Cart</button>
+</div>

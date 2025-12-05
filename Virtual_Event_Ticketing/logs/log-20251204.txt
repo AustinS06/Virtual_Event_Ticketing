@@ -1,0 +1,1051 @@
+2025-12-04 20:17:29.969 -05:00 [ERR] An error occurred using the connection to database 'eventportal' on server 'tcp://localhost:5432'.
+2025-12-04 20:18:58.294 -05:00 [ERR] An error occurred using the connection to database 'eventportal' on server 'tcp://localhost:5432'.
+2025-12-04 20:21:25.415 -05:00 [ERR] An error occurred using the connection to database 'eventportal' on server 'tcp://localhost:5432'.
+2025-12-04 20:21:54.109 -05:00 [ERR] An error occurred using the connection to database 'eventportal' on server 'tcp://localhost:5432'.
+2025-12-04 20:22:40.146 -05:00 [ERR] An error occurred using the connection to database 'eventportal' on server 'tcp://localhost:5432'.
+2025-12-04 21:33:07.592 -05:00 [ERR] An error occurred using the connection to database 'eventportal' on server 'tcp://localhost:5432'.
+2025-12-04 21:43:41.516 -05:00 [ERR] An error occurred using the connection to database 'eventportal' on server 'tcp://localhost:5432'.
+2025-12-04 21:51:54.152 -05:00 [ERR] Failed executing DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-04 21:54:44.677 -05:00 [ERR] Failed executing DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-04 21:54:44.814 -05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-04 21:54:44.824 -05:00 [INF] Applying migration '20251205025426_InitialCreate'.
+2025-12-04 21:54:51.749 -05:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-04 21:54:51.981 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-04 21:54:51.991 -05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-04 21:54:51.993 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-04 21:54:51.995 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-04 21:54:52.003 -05:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-04 21:54:52.022 -05:00 [INF] User profile is available. Using 'C:\Users\austi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-04 21:54:52.245 -05:00 [INF] Executed DbCommand (15ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 21:54:52.259 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 21:54:52.381 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetRoles" ("Id", "ConcurrencyStamp", "Name", "NormalizedName")
+VALUES (@p0, @p1, @p2, @p3);
+2025-12-04 21:54:52.395 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 21:54:52.399 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 21:54:52.404 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetRoles" ("Id", "ConcurrencyStamp", "Name", "NormalizedName")
+VALUES (@p0, @p1, @p2, @p3);
+2025-12-04 21:54:52.408 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 21:54:52.411 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 21:54:52.414 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetRoles" ("Id", "ConcurrencyStamp", "Name", "NormalizedName")
+VALUES (@p0, @p1, @p2, @p3);
+2025-12-04 21:54:52.425 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."FullName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."ProfileImagePath", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-12-04 21:54:52.483 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."FullName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."ProfileImagePath", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-12-04 21:54:52.545 -05:00 [INF] Executed DbCommand (10ms) [Parameters=[@p0='?', @p1='?' (DbType = Int32), @p2='?', @p3='?', @p4='?' (DbType = Boolean), @p5='?', @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTime), @p8='?', @p9='?', @p10='?', @p11='?', @p12='?' (DbType = Boolean), @p13='?', @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetUsers" ("Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FullName", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "ProfileImagePath", "SecurityStamp", "TwoFactorEnabled", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15, @p16);
+2025-12-04 21:54:52.556 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2
+2025-12-04 21:54:52.579 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?', @__p_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."UserId", a."RoleId"
+FROM "AspNetUserRoles" AS a
+WHERE a."UserId" = @__p_0 AND a."RoleId" = @__p_1
+LIMIT 1
+2025-12-04 21:54:52.584 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedRoleName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedRoleName_0
+LIMIT 2
+2025-12-04 21:54:52.597 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."FullName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."ProfileImagePath", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2025-12-04 21:54:52.621 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?', @p1='?', @p18='?', @p2='?' (DbType = Int32), @p3='?', @p19='?', @p4='?', @p5='?' (DbType = Boolean), @p6='?', @p7='?' (DbType = Boolean), @p8='?' (DbType = DateTime), @p9='?', @p10='?', @p11='?', @p12='?', @p13='?' (DbType = Boolean), @p14='?', @p15='?', @p16='?' (DbType = Boolean), @p17='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "AspNetUserRoles" ("RoleId", "UserId")
+VALUES (@p0, @p1);
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p2, "ConcurrencyStamp" = @p3, "Email" = @p4, "EmailConfirmed" = @p5, "FullName" = @p6, "LockoutEnabled" = @p7, "LockoutEnd" = @p8, "NormalizedEmail" = @p9, "NormalizedUserName" = @p10, "PasswordHash" = @p11, "PhoneNumber" = @p12, "PhoneNumberConfirmed" = @p13, "ProfileImagePath" = @p14, "SecurityStamp" = @p15, "TwoFactorEnabled" = @p16, "UserName" = @p17
+WHERE "Id" = @p18 AND "ConcurrencyStamp" = @p19;
+2025-12-04 21:54:52.707 -05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-12-04 21:54:52.731 -05:00 [INF] Now listening on: https://localhost:5001
+2025-12-04 21:54:52.733 -05:00 [INF] Now listening on: http://localhost:5000
+2025-12-04 21:54:52.735 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-04 21:54:52.736 -05:00 [INF] Hosting environment: Development
+2025-12-04 21:54:52.737 -05:00 [INF] Content root path: C:\Users\austi\RiderProjects\WebApplication1\WebApplication1
+2025-12-04 21:54:56.889 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-12-04 21:54:56.920 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 21:54:56.928 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-12-04 21:54:56.938 -05:00 [INF] Executing action method WebApplication1.Controllers.HomeController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 21:54:56.943 -05:00 [INF] Executed action method WebApplication1.Controllers.HomeController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2985ms.
+2025-12-04 21:54:56.956 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 21:54:56.997 -05:00 [INF] Executed ViewResult - view Index executed in 42.272ms.
+2025-12-04 21:54:57.000 -05:00 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 68.3456ms
+2025-12-04 21:54:57.002 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 21:54:57.006 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 118.2147ms
+2025-12-04 21:54:57.033 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - null null
+2025-12-04 21:54:57.045 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\wwwroot\css\site.css'
+2025-12-04 21:54:57.047 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - 200 667 text/css 14.0809ms
+2025-12-04 21:54:57.227 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - null null
+2025-12-04 21:54:57.241 -05:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\wwwroot\favicon.ico'
+2025-12-04 21:54:57.245 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - 200 5430 image/x-icon 18.0386ms
+2025-12-04 21:55:02.251 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Events - null null
+2025-12-04 21:55:02.258 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 21:55:02.264 -05:00 [INF] Route matched with {action = "Index", controller = "Events"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebApplication1.Controllers.EventsController (WebApplication1).
+2025-12-04 21:55:02.267 -05:00 [INF] Executing action method WebApplication1.Controllers.EventsController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 21:55:02.299 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."Category", e."Description", e."Location", e."OrganizerId", e."Price", e."StartDate", e."Title", e."TotalTickets"
+FROM "Events" AS e
+ORDER BY e."StartDate"
+2025-12-04 21:55:02.306 -05:00 [INF] Executed action method WebApplication1.Controllers.EventsController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 37.0998ms.
+2025-12-04 21:55:02.314 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 21:55:02.320 -05:00 [INF] Executed ViewResult - view Index executed in 7.5892ms.
+2025-12-04 21:55:02.325 -05:00 [INF] Executed action WebApplication1.Controllers.EventsController.Index (WebApplication1) in 57.9614ms
+2025-12-04 21:55:02.328 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 21:55:02.338 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Events - 200 null text/html; charset=utf-8 86.6698ms
+2025-12-04 21:55:03.322 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Dashboard - null null
+2025-12-04 21:55:03.328 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.DashboardController.Index (WebApplication1)'
+2025-12-04 21:55:03.331 -05:00 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebApplication1.Controllers.DashboardController (WebApplication1).
+2025-12-04 21:55:03.337 -05:00 [INF] Executing action method WebApplication1.Controllers.DashboardController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 21:55:03.381 -05:00 [INF] Executed action WebApplication1.Controllers.DashboardController.Index (WebApplication1) in 46.6289ms
+2025-12-04 21:55:03.383 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.DashboardController.Index (WebApplication1)'
+2025-12-04 21:55:03.385 -05:00 [ERR] Unhandled exception
+System.NotSupportedException: Cannot apply binary operation on types 'timestamp with time zone' and 'timestamp without time zone', convert one of the operands first.
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression sqlBinaryExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression binary, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpr)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutorExpression[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass11_0`1.<ExecuteCore>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at WebApplication1.Services.EventService.GetUpcomingEventsAsync() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Services\EventService.cs:line 19
+   at WebApplication1.Controllers.DashboardController.Index() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Controllers\DashboardController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Program.cs:line 94
+2025-12-04 21:55:03.405 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Cannot apply binary operation on types 'timestamp with time zone' and 'timestamp without time zone', convert one of the operands first.
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression sqlBinaryExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression binary, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpr)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutorExpression[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass11_0`1.<ExecuteCore>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at WebApplication1.Services.EventService.GetUpcomingEventsAsync() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Services\EventService.cs:line 19
+   at WebApplication1.Controllers.DashboardController.Index() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Controllers\DashboardController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Program.cs:line 94
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-12-04 21:55:03.435 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Dashboard - 500 null text/html; charset=utf-8 112.59ms
+2025-12-04 21:55:07.600 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Events - null null
+2025-12-04 21:55:07.604 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 21:55:07.605 -05:00 [INF] Route matched with {action = "Index", controller = "Events"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebApplication1.Controllers.EventsController (WebApplication1).
+2025-12-04 21:55:07.608 -05:00 [INF] Executing action method WebApplication1.Controllers.EventsController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 21:55:07.612 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."Category", e."Description", e."Location", e."OrganizerId", e."Price", e."StartDate", e."Title", e."TotalTickets"
+FROM "Events" AS e
+ORDER BY e."StartDate"
+2025-12-04 21:55:07.615 -05:00 [INF] Executed action method WebApplication1.Controllers.EventsController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.56ms.
+2025-12-04 21:55:07.618 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 21:55:07.621 -05:00 [INF] Executed ViewResult - view Index executed in 2.9304ms.
+2025-12-04 21:55:07.623 -05:00 [INF] Executed action WebApplication1.Controllers.EventsController.Index (WebApplication1) in 15.5692ms
+2025-12-04 21:55:07.626 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 21:55:07.628 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Events - 200 null text/html; charset=utf-8 28.1973ms
+2025-12-04 21:55:08.295 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-12-04 21:55:08.299 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 21:55:08.301 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-12-04 21:55:08.304 -05:00 [INF] Executing action method WebApplication1.Controllers.HomeController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 21:55:08.306 -05:00 [INF] Executed action method WebApplication1.Controllers.HomeController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0195ms.
+2025-12-04 21:55:08.308 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 21:55:08.310 -05:00 [INF] Executed ViewResult - view Index executed in 2.1583ms.
+2025-12-04 21:55:08.312 -05:00 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 8.2597ms
+2025-12-04 21:55:08.314 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 21:55:08.315 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 20.3102ms
+2025-12-04 21:55:10.595 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Events - null null
+2025-12-04 21:55:10.599 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 21:55:10.601 -05:00 [INF] Route matched with {action = "Index", controller = "Events"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebApplication1.Controllers.EventsController (WebApplication1).
+2025-12-04 21:55:10.604 -05:00 [INF] Executing action method WebApplication1.Controllers.EventsController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 21:55:10.607 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."Category", e."Description", e."Location", e."OrganizerId", e."Price", e."StartDate", e."Title", e."TotalTickets"
+FROM "Events" AS e
+ORDER BY e."StartDate"
+2025-12-04 21:55:10.611 -05:00 [INF] Executed action method WebApplication1.Controllers.EventsController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 5.1715ms.
+2025-12-04 21:55:10.614 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 21:55:10.617 -05:00 [INF] Executed ViewResult - view Index executed in 3.1485ms.
+2025-12-04 21:55:10.620 -05:00 [INF] Executed action WebApplication1.Controllers.EventsController.Index (WebApplication1) in 16.7055ms
+2025-12-04 21:55:10.623 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 21:55:10.625 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Events - 200 null text/html; charset=utf-8 30.4184ms
+2025-12-04 21:55:11.800 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Dashboard - null null
+2025-12-04 21:55:11.804 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.DashboardController.Index (WebApplication1)'
+2025-12-04 21:55:11.805 -05:00 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebApplication1.Controllers.DashboardController (WebApplication1).
+2025-12-04 21:55:11.808 -05:00 [INF] Executing action method WebApplication1.Controllers.DashboardController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 21:55:11.812 -05:00 [INF] Executed action WebApplication1.Controllers.DashboardController.Index (WebApplication1) in 4.0425ms
+2025-12-04 21:55:11.814 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.DashboardController.Index (WebApplication1)'
+2025-12-04 21:55:11.815 -05:00 [ERR] Unhandled exception
+System.NotSupportedException: Cannot apply binary operation on types 'timestamp with time zone' and 'timestamp without time zone', convert one of the operands first.
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression sqlBinaryExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression binary, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpr)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutorExpression[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass11_0`1.<ExecuteCore>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at WebApplication1.Services.EventService.GetUpcomingEventsAsync() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Services\EventService.cs:line 19
+   at WebApplication1.Controllers.DashboardController.Index() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Controllers\DashboardController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Program.cs:line 94
+2025-12-04 21:55:11.829 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Cannot apply binary operation on types 'timestamp with time zone' and 'timestamp without time zone', convert one of the operands first.
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression sqlBinaryExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression binary, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpr)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutorExpression[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass11_0`1.<ExecuteCore>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at WebApplication1.Services.EventService.GetUpcomingEventsAsync() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Services\EventService.cs:line 19
+   at WebApplication1.Controllers.DashboardController.Index() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Controllers\DashboardController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Program.cs:line 94
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-12-04 21:55:11.855 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Dashboard - 500 null text/html; charset=utf-8 54.7986ms
+2025-12-04 21:55:30.130 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Events - null null
+2025-12-04 21:55:30.134 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 21:55:30.136 -05:00 [INF] Route matched with {action = "Index", controller = "Events"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebApplication1.Controllers.EventsController (WebApplication1).
+2025-12-04 21:55:30.139 -05:00 [INF] Executing action method WebApplication1.Controllers.EventsController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 21:55:30.142 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."Category", e."Description", e."Location", e."OrganizerId", e."Price", e."StartDate", e."Title", e."TotalTickets"
+FROM "Events" AS e
+ORDER BY e."StartDate"
+2025-12-04 21:55:30.145 -05:00 [INF] Executed action method WebApplication1.Controllers.EventsController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.2099ms.
+2025-12-04 21:55:30.148 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 21:55:30.150 -05:00 [INF] Executed ViewResult - view Index executed in 2.3136ms.
+2025-12-04 21:55:30.152 -05:00 [INF] Executed action WebApplication1.Controllers.EventsController.Index (WebApplication1) in 13.7886ms
+2025-12-04 21:55:30.155 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 21:55:30.157 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Events - 200 null text/html; charset=utf-8 26.9781ms
+2025-12-04 21:55:31.162 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Dashboard - null null
+2025-12-04 21:55:31.166 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.DashboardController.Index (WebApplication1)'
+2025-12-04 21:55:31.167 -05:00 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebApplication1.Controllers.DashboardController (WebApplication1).
+2025-12-04 21:55:31.171 -05:00 [INF] Executing action method WebApplication1.Controllers.DashboardController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 21:55:31.175 -05:00 [INF] Executed action WebApplication1.Controllers.DashboardController.Index (WebApplication1) in 4.3227ms
+2025-12-04 21:55:31.177 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.DashboardController.Index (WebApplication1)'
+2025-12-04 21:55:31.179 -05:00 [ERR] Unhandled exception
+System.NotSupportedException: Cannot apply binary operation on types 'timestamp with time zone' and 'timestamp without time zone', convert one of the operands first.
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression sqlBinaryExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression binary, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpr)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutorExpression[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass11_0`1.<ExecuteCore>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at WebApplication1.Services.EventService.GetUpcomingEventsAsync() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Services\EventService.cs:line 19
+   at WebApplication1.Controllers.DashboardController.Index() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Controllers\DashboardController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Program.cs:line 94
+2025-12-04 21:55:31.194 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Cannot apply binary operation on types 'timestamp with time zone' and 'timestamp without time zone', convert one of the operands first.
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression sqlBinaryExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression binary, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpr)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutorExpression[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass11_0`1.<ExecuteCore>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at WebApplication1.Services.EventService.GetUpcomingEventsAsync() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Services\EventService.cs:line 19
+   at WebApplication1.Controllers.DashboardController.Index() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Controllers\DashboardController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Program.cs:line 94
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-12-04 21:55:31.211 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Dashboard - 500 null text/html; charset=utf-8 49.5131ms
+2025-12-04 21:55:31.967 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Events - null null
+2025-12-04 21:55:31.971 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 21:55:31.972 -05:00 [INF] Route matched with {action = "Index", controller = "Events"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebApplication1.Controllers.EventsController (WebApplication1).
+2025-12-04 21:55:31.975 -05:00 [INF] Executing action method WebApplication1.Controllers.EventsController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 21:55:31.978 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."Category", e."Description", e."Location", e."OrganizerId", e."Price", e."StartDate", e."Title", e."TotalTickets"
+FROM "Events" AS e
+ORDER BY e."StartDate"
+2025-12-04 21:55:31.981 -05:00 [INF] Executed action method WebApplication1.Controllers.EventsController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4.3375ms.
+2025-12-04 21:55:31.984 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 21:55:31.987 -05:00 [INF] Executed ViewResult - view Index executed in 2.5545ms.
+2025-12-04 21:55:31.989 -05:00 [INF] Executed action WebApplication1.Controllers.EventsController.Index (WebApplication1) in 14.9745ms
+2025-12-04 21:55:31.992 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 21:55:31.994 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Events - 200 null text/html; charset=utf-8 27.2303ms
+2025-12-04 21:55:47.696 -05:00 [INF] Application is shutting down...
+2025-12-04 21:57:31.872 -05:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-04 21:57:32.113 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-04 21:57:32.123 -05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-04 21:57:32.124 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-04 21:57:32.127 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-04 21:57:32.135 -05:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-04 21:57:32.153 -05:00 [INF] User profile is available. Using 'C:\Users\austi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-04 21:57:32.373 -05:00 [INF] Executed DbCommand (15ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 21:57:32.421 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 21:57:32.425 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 21:57:32.435 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."FullName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."ProfileImagePath", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-12-04 21:57:32.548 -05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-12-04 21:57:32.571 -05:00 [INF] Now listening on: https://localhost:5001
+2025-12-04 21:57:32.573 -05:00 [INF] Now listening on: http://localhost:5000
+2025-12-04 21:57:32.575 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-04 21:57:32.577 -05:00 [INF] Hosting environment: Development
+2025-12-04 21:57:32.578 -05:00 [INF] Content root path: C:\Users\austi\RiderProjects\WebApplication1\WebApplication1
+2025-12-04 21:57:32.858 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-12-04 21:57:32.883 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 21:57:32.890 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-12-04 21:57:32.898 -05:00 [INF] Executing action method WebApplication1.Controllers.HomeController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 21:57:32.904 -05:00 [INF] Executed action method WebApplication1.Controllers.HomeController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.4636ms.
+2025-12-04 21:57:32.915 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 21:57:32.948 -05:00 [INF] Executed ViewResult - view Index executed in 33.8223ms.
+2025-12-04 21:57:32.951 -05:00 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 58.3995ms
+2025-12-04 21:57:32.953 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 21:57:32.957 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 100.22ms
+2025-12-04 21:57:32.976 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - null null
+2025-12-04 21:57:32.987 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\wwwroot\css\site.css'
+2025-12-04 21:57:32.989 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - 200 667 text/css 13.1626ms
+2025-12-04 21:57:33.172 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - null null
+2025-12-04 21:57:33.188 -05:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\wwwroot\favicon.ico'
+2025-12-04 21:57:33.191 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - 200 5430 image/x-icon 19.4324ms
+2025-12-04 21:57:43.355 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Events - null null
+2025-12-04 21:57:43.361 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 21:57:43.367 -05:00 [INF] Route matched with {action = "Index", controller = "Events"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebApplication1.Controllers.EventsController (WebApplication1).
+2025-12-04 21:57:43.371 -05:00 [INF] Executing action method WebApplication1.Controllers.EventsController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 21:57:43.402 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."Category", e."Description", e."Location", e."OrganizerId", e."Price", e."StartDate", e."Title", e."TotalTickets"
+FROM "Events" AS e
+ORDER BY e."StartDate"
+2025-12-04 21:57:43.410 -05:00 [INF] Executed action method WebApplication1.Controllers.EventsController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 37.128ms.
+2025-12-04 21:57:43.417 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 21:57:43.424 -05:00 [INF] Executed ViewResult - view Index executed in 8.0044ms.
+2025-12-04 21:57:43.428 -05:00 [INF] Executed action WebApplication1.Controllers.EventsController.Index (WebApplication1) in 58.2106ms
+2025-12-04 21:57:43.432 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 21:57:43.441 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Events - 200 null text/html; charset=utf-8 86.1313ms
+2025-12-04 21:57:53.728 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Dashboard - null null
+2025-12-04 21:57:53.734 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.DashboardController.Index (WebApplication1)'
+2025-12-04 21:57:53.738 -05:00 [INF] Route matched with {action = "Index", controller = "Dashboard"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebApplication1.Controllers.DashboardController (WebApplication1).
+2025-12-04 21:57:53.743 -05:00 [INF] Executing action method WebApplication1.Controllers.DashboardController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 21:57:53.785 -05:00 [INF] Executed action WebApplication1.Controllers.DashboardController.Index (WebApplication1) in 44.5778ms
+2025-12-04 21:57:53.787 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.DashboardController.Index (WebApplication1)'
+2025-12-04 21:57:53.789 -05:00 [ERR] Unhandled exception
+System.NotSupportedException: Cannot apply binary operation on types 'timestamp with time zone' and 'timestamp without time zone', convert one of the operands first.
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression sqlBinaryExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression binary, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpr)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutorExpression[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass11_0`1.<ExecuteCore>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at WebApplication1.Services.EventService.GetUpcomingEventsAsync() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Services\EventService.cs:line 19
+   at WebApplication1.Controllers.DashboardController.Index() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Controllers\DashboardController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Program.cs:line 94
+2025-12-04 21:57:53.810 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotSupportedException: Cannot apply binary operation on types 'timestamp with time zone' and 'timestamp without time zone', convert one of the operands first.
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression sqlBinaryExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMappingOnSqlBinary(SqlBinaryExpression binary, RelationalTypeMapping typeMapping)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.ApplyTypeMapping(SqlExpression sqlExpression, RelationalTypeMapping typeMapping)
+   at Microsoft.EntityFrameworkCore.Query.SqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.NpgsqlSqlExpressionFactory.MakeBinary(ExpressionType operatorType, SqlExpression left, SqlExpression right, RelationalTypeMapping typeMapping, SqlExpression existingExpr)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlSqlTranslatingExpressionVisitor.VisitBinary(BinaryExpression binaryExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.TranslateInternal(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalSqlTranslatingExpressionVisitor.Translate(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateExpression(Expression expression, Boolean applyDefaultTypeMapping)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateLambdaExpression(ShapedQueryExpression shapedQueryExpression, LambdaExpression lambdaExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Query.Internal.NpgsqlQueryableMethodTranslatingExpressionVisitor.TranslateWhere(ShapedQueryExpression source, LambdaExpression predicate)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutorExpression[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass11_0`1.<ExecuteCore>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteCore[TResult](Expression query, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1.GetAsyncEnumerator(CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.ConfiguredCancelableAsyncEnumerable`1.GetAsyncEnumerator()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at WebApplication1.Services.EventService.GetUpcomingEventsAsync() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Services\EventService.cs:line 19
+   at WebApplication1.Controllers.DashboardController.Index() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Controllers\DashboardController.cs:line 15
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Program.<>c.<<<Main>$>b__0_2>d.MoveNext() in C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\Program.cs:line 94
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-12-04 21:57:53.839 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Dashboard - 500 null text/html; charset=utf-8 111.367ms
+2025-12-04 21:59:11.028 -05:00 [INF] Application is shutting down...
+2025-12-04 22:12:18.023 -05:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-04 22:13:24.773 -05:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-04 22:13:25.024 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-04 22:13:25.029 -05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-04 22:13:25.030 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-04 22:13:25.032 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-04 22:13:25.037 -05:00 [INF] Applying migration '20251205031313_PendingChanges'.
+2025-12-04 22:13:25.050 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Tickets" ADD "EventId" integer NOT NULL DEFAULT 0;
+2025-12-04 22:13:25.052 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Events" ADD "EventDate" timestamp with time zone NOT NULL DEFAULT TIMESTAMPTZ '-infinity';
+2025-12-04 22:13:25.054 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "AspNetUsers" ADD "ProfilePicturePath" text NOT NULL DEFAULT '';
+2025-12-04 22:13:25.057 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Tickets_EventId" ON "Tickets" ("EventId");
+2025-12-04 22:13:25.059 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Tickets" ADD CONSTRAINT "FK_Tickets_Events_EventId" FOREIGN KEY ("EventId") REFERENCES "Events" ("Id") ON DELETE CASCADE;
+2025-12-04 22:13:25.061 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20251205031313_PendingChanges', '9.0.0');
+2025-12-04 22:15:31.674 -05:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-04 22:15:31.913 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-04 22:15:31.922 -05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-04 22:15:31.924 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-04 22:15:31.927 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-04 22:15:31.935 -05:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-04 22:15:31.953 -05:00 [INF] User profile is available. Using 'C:\Users\austi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-04 22:15:32.190 -05:00 [INF] Executed DbCommand (17ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 22:15:32.238 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 22:15:32.242 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 22:15:32.253 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."FullName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."ProfileImagePath", a."ProfilePicturePath", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-12-04 22:15:32.366 -05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-12-04 22:15:32.390 -05:00 [INF] Now listening on: https://localhost:5001
+2025-12-04 22:15:32.391 -05:00 [INF] Now listening on: http://localhost:5000
+2025-12-04 22:15:32.394 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-04 22:15:32.395 -05:00 [INF] Hosting environment: Development
+2025-12-04 22:15:32.396 -05:00 [INF] Content root path: C:\Users\austi\RiderProjects\WebApplication1\WebApplication1
+2025-12-04 22:15:32.600 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-12-04 22:15:32.629 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:15:32.636 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-12-04 22:15:32.645 -05:00 [INF] Executing action method WebApplication1.Controllers.HomeController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 22:15:32.651 -05:00 [INF] Executed action method WebApplication1.Controllers.HomeController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3723ms.
+2025-12-04 22:15:32.664 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 22:15:32.700 -05:00 [INF] Executed ViewResult - view Index executed in 36.8519ms.
+2025-12-04 22:15:32.703 -05:00 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 63.4612ms
+2025-12-04 22:15:32.705 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:15:32.709 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 110.1216ms
+2025-12-04 22:15:32.726 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - null null
+2025-12-04 22:15:32.737 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\wwwroot\css\site.css'
+2025-12-04 22:15:32.739 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - 200 667 text/css 13.1054ms
+2025-12-04 22:15:34.232 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Dashboard - null null
+2025-12-04 22:15:34.241 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-12-04 22:15:34.246 -05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-12-04 22:15:34.247 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Dashboard - 302 0 null 15.6008ms
+2025-12-04 22:15:34.253 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Account/Login?ReturnUrl=%2FDashboard - null null
+2025-12-04 22:15:34.257 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Account/Login?ReturnUrl=%2FDashboard - 404 0 null 4.8392ms
+2025-12-04 22:15:34.262 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/Account/Login, Response status code: 404
+2025-12-04 22:15:35.721 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Account/Login?ReturnUrl=%2FDashboard - null null
+2025-12-04 22:15:35.726 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Account/Login?ReturnUrl=%2FDashboard - 404 0 null 4.3916ms
+2025-12-04 22:15:35.731 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/Account/Login, Response status code: 404
+2025-12-04 22:15:39.358 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-12-04 22:15:39.362 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:15:39.364 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-12-04 22:15:39.368 -05:00 [INF] Executing action method WebApplication1.Controllers.HomeController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 22:15:39.370 -05:00 [INF] Executed action method WebApplication1.Controllers.HomeController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0393ms.
+2025-12-04 22:15:39.373 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 22:15:39.377 -05:00 [INF] Executed ViewResult - view Index executed in 4.5336ms.
+2025-12-04 22:15:39.379 -05:00 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 11.9514ms
+2025-12-04 22:15:39.381 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:15:39.383 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 25.0641ms
+2025-12-04 22:15:39.409 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - null null
+2025-12-04 22:15:39.419 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\wwwroot\css\site.css'
+2025-12-04 22:15:39.422 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - 200 667 text/css 13.052ms
+2025-12-04 22:15:40.141 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Events - null null
+2025-12-04 22:15:40.145 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 22:15:40.150 -05:00 [INF] Route matched with {action = "Index", controller = "Events"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebApplication1.Controllers.EventsController (WebApplication1).
+2025-12-04 22:15:40.153 -05:00 [INF] Executing action method WebApplication1.Controllers.EventsController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 22:15:40.185 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."Category", e."Description", e."EventDate", e."Location", e."OrganizerId", e."Price", e."StartDate", e."Title", e."TotalTickets"
+FROM "Events" AS e
+ORDER BY e."StartDate"
+2025-12-04 22:15:40.193 -05:00 [INF] Executed action method WebApplication1.Controllers.EventsController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 38.6011ms.
+2025-12-04 22:15:40.200 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 22:15:40.205 -05:00 [INF] Executed ViewResult - view Index executed in 5.949ms.
+2025-12-04 22:15:40.210 -05:00 [INF] Executed action WebApplication1.Controllers.EventsController.Index (WebApplication1) in 57.3356ms
+2025-12-04 22:15:40.213 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 22:15:40.222 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Events - 200 null text/html; charset=utf-8 81.3991ms
+2025-12-04 22:15:41.453 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-12-04 22:15:41.457 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:15:41.459 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-12-04 22:15:41.461 -05:00 [INF] Executing action method WebApplication1.Controllers.HomeController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 22:15:41.463 -05:00 [INF] Executed action method WebApplication1.Controllers.HomeController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0152ms.
+2025-12-04 22:15:41.465 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 22:15:41.467 -05:00 [INF] Executed ViewResult - view Index executed in 1.6904ms.
+2025-12-04 22:15:41.469 -05:00 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 8.3567ms
+2025-12-04 22:15:41.471 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:15:41.473 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 19.6825ms
+2025-12-04 22:15:49.237 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Dashboard - null null
+2025-12-04 22:15:49.242 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-12-04 22:15:49.244 -05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-12-04 22:15:49.245 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Dashboard - 302 0 null 8.0309ms
+2025-12-04 22:15:49.249 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Account/Login?ReturnUrl=%2FDashboard - null null
+2025-12-04 22:15:49.253 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Account/Login?ReturnUrl=%2FDashboard - 404 0 null 4.2568ms
+2025-12-04 22:15:49.257 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/Account/Login, Response status code: 404
+2025-12-04 22:15:52.632 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Account/Login?ReturnUrl=%2FDashboard - null null
+2025-12-04 22:15:52.636 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Account/Login?ReturnUrl=%2FDashboard - 404 0 null 4.1019ms
+2025-12-04 22:15:52.642 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/Account/Login, Response status code: 404
+2025-12-04 22:17:07.863 -05:00 [INF] Application is shutting down...
+2025-12-04 22:19:42.010 -05:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-04 22:19:42.243 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2025-12-04 22:19:42.253 -05:00 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-12-04 22:19:42.255 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE
+2025-12-04 22:19:42.258 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-12-04 22:19:42.266 -05:00 [INF] No migrations were applied. The database is already up to date.
+2025-12-04 22:19:42.283 -05:00 [INF] User profile is available. Using 'C:\Users\austi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-12-04 22:19:42.512 -05:00 [INF] Executed DbCommand (16ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 22:19:42.561 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 22:19:42.564 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[@__normalizedName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2025-12-04 22:19:42.575 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."FullName", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."ProfileImagePath", a."ProfilePicturePath", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2025-12-04 22:19:42.690 -05:00 [WRN] The ASP.NET Core developer certificate is not trusted. For information about trusting the ASP.NET Core developer certificate, see https://aka.ms/aspnet/https-trust-dev-cert
+2025-12-04 22:19:42.714 -05:00 [INF] Now listening on: https://localhost:5001
+2025-12-04 22:19:42.715 -05:00 [INF] Now listening on: http://localhost:5000
+2025-12-04 22:19:42.718 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-12-04 22:19:42.719 -05:00 [INF] Hosting environment: Development
+2025-12-04 22:19:42.720 -05:00 [INF] Content root path: C:\Users\austi\RiderProjects\WebApplication1\WebApplication1
+2025-12-04 22:19:42.883 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-12-04 22:19:42.914 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:19:42.921 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-12-04 22:19:42.930 -05:00 [INF] Executing action method WebApplication1.Controllers.HomeController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 22:19:42.937 -05:00 [INF] Executed action method WebApplication1.Controllers.HomeController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3483ms.
+2025-12-04 22:19:42.949 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 22:19:42.989 -05:00 [INF] Executed ViewResult - view Index executed in 39.5209ms.
+2025-12-04 22:19:42.991 -05:00 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 67.0311ms
+2025-12-04 22:19:42.994 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:19:42.997 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 115.8843ms
+2025-12-04 22:19:43.014 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - null null
+2025-12-04 22:19:43.026 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\wwwroot\css\site.css'
+2025-12-04 22:19:43.029 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - 200 667 text/css 14.47ms
+2025-12-04 22:19:44.177 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Dashboard - null null
+2025-12-04 22:19:44.187 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-12-04 22:19:44.192 -05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-12-04 22:19:44.194 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Dashboard - 302 0 null 16.4466ms
+2025-12-04 22:19:44.198 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Account/Login?ReturnUrl=%2FDashboard - null null
+2025-12-04 22:19:44.204 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Account/Login?ReturnUrl=%2FDashboard - 404 0 null 6.0542ms
+2025-12-04 22:19:44.210 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/Account/Login, Response status code: 404
+2025-12-04 22:19:49.067 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-12-04 22:19:49.072 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:19:49.074 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-12-04 22:19:49.077 -05:00 [INF] Executing action method WebApplication1.Controllers.HomeController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 22:19:49.079 -05:00 [INF] Executed action method WebApplication1.Controllers.HomeController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0382ms.
+2025-12-04 22:19:49.082 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 22:19:49.086 -05:00 [INF] Executed ViewResult - view Index executed in 4.2432ms.
+2025-12-04 22:19:49.088 -05:00 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 11.461ms
+2025-12-04 22:19:49.090 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:19:49.092 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 25.1257ms
+2025-12-04 22:19:49.114 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css - null null
+2025-12-04 22:19:49.124 -05:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\austi\RiderProjects\WebApplication1\WebApplication1\wwwroot\css\site.css'
+2025-12-04 22:19:49.127 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/css/site.css - 200 667 text/css 12.6858ms
+2025-12-04 22:19:50.611 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Events - null null
+2025-12-04 22:19:50.615 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 22:19:50.620 -05:00 [INF] Route matched with {action = "Index", controller = "Events"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebApplication1.Controllers.EventsController (WebApplication1).
+2025-12-04 22:19:50.623 -05:00 [INF] Executing action method WebApplication1.Controllers.EventsController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 22:19:50.655 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."Category", e."Description", e."EventDate", e."Location", e."OrganizerId", e."Price", e."StartDate", e."Title", e."TotalTickets"
+FROM "Events" AS e
+ORDER BY e."StartDate"
+2025-12-04 22:19:50.662 -05:00 [INF] Executed action method WebApplication1.Controllers.EventsController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 37.2486ms.
+2025-12-04 22:19:50.669 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 22:19:50.675 -05:00 [INF] Executed ViewResult - view Index executed in 6.7661ms.
+2025-12-04 22:19:50.679 -05:00 [INF] Executed action WebApplication1.Controllers.EventsController.Index (WebApplication1) in 56.5374ms
+2025-12-04 22:19:50.683 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 22:19:50.692 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Events - 200 null text/html; charset=utf-8 80.8614ms
+2025-12-04 22:19:51.134 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-12-04 22:19:51.137 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:19:51.139 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-12-04 22:19:51.142 -05:00 [INF] Executing action method WebApplication1.Controllers.HomeController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 22:19:51.144 -05:00 [INF] Executed action method WebApplication1.Controllers.HomeController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0187ms.
+2025-12-04 22:19:51.146 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 22:19:51.148 -05:00 [INF] Executed ViewResult - view Index executed in 1.9876ms.
+2025-12-04 22:19:51.150 -05:00 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 8.4001ms
+2025-12-04 22:19:51.152 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:19:51.153 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 19.8875ms
+2025-12-04 22:19:51.552 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-12-04 22:19:51.556 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:19:51.558 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-12-04 22:19:51.560 -05:00 [INF] Executing action method WebApplication1.Controllers.HomeController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 22:19:51.562 -05:00 [INF] Executed action method WebApplication1.Controllers.HomeController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0138ms.
+2025-12-04 22:19:51.565 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 22:19:51.567 -05:00 [INF] Executed ViewResult - view Index executed in 2.2202ms.
+2025-12-04 22:19:51.569 -05:00 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 8.9043ms
+2025-12-04 22:19:51.571 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:19:51.573 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 21.1739ms
+2025-12-04 22:19:52.966 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - null null
+2025-12-04 22:19:52.970 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:19:52.971 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller WebApplication1.Controllers.HomeController (WebApplication1).
+2025-12-04 22:19:52.974 -05:00 [INF] Executing action method WebApplication1.Controllers.HomeController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 22:19:52.976 -05:00 [INF] Executed action method WebApplication1.Controllers.HomeController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0325ms.
+2025-12-04 22:19:52.979 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 22:19:52.981 -05:00 [INF] Executed ViewResult - view Index executed in 1.936ms.
+2025-12-04 22:19:52.983 -05:00 [INF] Executed action WebApplication1.Controllers.HomeController.Index (WebApplication1) in 8.5647ms
+2025-12-04 22:19:52.985 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.HomeController.Index (WebApplication1)'
+2025-12-04 22:19:52.987 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - 200 null text/html; charset=utf-8 21.0063ms
+2025-12-04 22:19:54.166 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Events - null null
+2025-12-04 22:19:54.169 -05:00 [INF] Executing endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 22:19:54.171 -05:00 [INF] Route matched with {action = "Index", controller = "Events"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller WebApplication1.Controllers.EventsController (WebApplication1).
+2025-12-04 22:19:54.182 -05:00 [INF] Executing action method WebApplication1.Controllers.EventsController.Index (WebApplication1) - Validation state: "Valid"
+2025-12-04 22:19:54.216 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."Category", e."Description", e."EventDate", e."Location", e."OrganizerId", e."Price", e."StartDate", e."Title", e."TotalTickets"
+FROM "Events" AS e
+ORDER BY e."StartDate"
+2025-12-04 22:19:54.220 -05:00 [INF] Executed action method WebApplication1.Controllers.EventsController.Index (WebApplication1), returned result Microsoft.AspNetCore.Mvc.ViewResult in 36.4753ms.
+2025-12-04 22:19:54.223 -05:00 [INF] Executing ViewResult, running view Index.
+2025-12-04 22:19:54.225 -05:00 [INF] Executed ViewResult - view Index executed in 2.6387ms.
+2025-12-04 22:19:54.228 -05:00 [INF] Executed action WebApplication1.Controllers.EventsController.Index (WebApplication1) in 54.4937ms
+2025-12-04 22:19:54.231 -05:00 [INF] Executed endpoint 'WebApplication1.Controllers.EventsController.Index (WebApplication1)'
+2025-12-04 22:19:54.233 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Events - 200 null text/html; charset=utf-8 67.5036ms
+2025-12-04 22:19:55.022 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Dashboard - null null
+2025-12-04 22:19:55.027 -05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-12-04 22:19:55.029 -05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-12-04 22:19:55.030 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Dashboard - 302 0 null 8.2394ms
+2025-12-04 22:19:55.035 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Account/Login?ReturnUrl=%2FDashboard - null null
+2025-12-04 22:19:55.038 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5001/Account/Login?ReturnUrl=%2FDashboard - 404 0 null 3.83ms
+2025-12-04 22:19:55.043 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:5001/Account/Login, Response status code: 404
+2025-12-04 22:21:11.343 -05:00 [INF] Application is shutting down...

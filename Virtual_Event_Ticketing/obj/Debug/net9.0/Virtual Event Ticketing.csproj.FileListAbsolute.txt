@@ -1,0 +1,257 @@
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\appsettings.json
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Virtual Event Ticketing.staticwebassets.runtime.json
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Virtual Event Ticketing.staticwebassets.endpoints.json
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Virtual Event Ticketing.exe
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Virtual Event Ticketing.deps.json
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Virtual Event Ticketing.runtimeconfig.json
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Virtual Event Ticketing.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Virtual Event Ticketing.pdb
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Humanizer.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Npgsql.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Serilog.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Serilog.AspNetCore.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\Serilog.Sinks.File.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\Virtual Event Ticketing.csproj.AssemblyReference.cache
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\Virtual Event Ticketing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\Virtual Event Ticketing.AssemblyInfoInputs.cache
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\Virtual Event Ticketing.AssemblyInfo.cs
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\Virtual Event Ticketing.csproj.CoreCompileInputs.cache
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\Virtual Event Ticketing.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\Virtual Event Ticketing.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\Virtual Event Ticketing.RazorAssemblyInfo.cache
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\Virtual Event Ticketing.RazorAssemblyInfo.cs
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\scopedcss\bundle\Virtual Event Ticketing.styles.css
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\scopedcss\projectbundle\Virtual Event Ticketing.bundle.scp.css
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\ofa40bqe71-o84wqeh1og.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\j9swiz3yzq-90yqlj465b.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\vltxs1u3vm-xtxxf3hu2r.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\14ipv7q33s-agp80tu62r.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\rh65p086id-st1cbwfwo5.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\eb27mqwgz2-unj9p35syc.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\9glsckmvxo-5vj65cig9w.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\hh8ihyobdx-q2ku51ktnl.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\bww8ud00yd-2q4vfeazbq.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\edcrak57d7-n1oizzvkh6.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\sf8kf2lula-o371a8zbv2.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\3tzsqhslk9-7na4sro3qu.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\oxk5o6czdw-jeal3x0ldm.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\k8b25g0zwc-f8imaxxbri.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\8axix7wldr-okkk44j0xs.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\d5z9sfpxbi-0wve5yxp74.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\u8428c4e9i-cwzlr5n8x4.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\tg53r17ghy-npxfuf8dg6.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\nlrl0f3xs3-wmug9u23qg.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\1fc4q00scq-tey0rigmnh.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\8xykfy6qmd-j75batdsum.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\vsrbd71spn-16095smhkz.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\cynp17w084-vy0bq9ydhf.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\7o8oyvng68-b4skse8du6.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\h9vwtoirpy-ab1c3rmv7g.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\o5k23vqhrk-u3xrusw2ol.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\iznc766avz-56d2bn4wt9.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\ns4583i71s-mpyigms19s.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\47012z8l2l-73kdqttayv.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\4vzefxwp2m-bpk8xqwxhs.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\bh4v3mdph9-8inm30yfxf.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\l186vlgaag-ve6x09088i.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\rsc7qacj1u-4gxs3k148c.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\z408qb6q7a-9b9oa1qrmt.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\qfr28sqcy1-fctod5rc9n.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\0k1i85ntyh-l2av4jpuoj.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\xa379ftczi-kbynt5jhd9.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\lr5hmrr0j7-25iw1kog22.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\ivy2s9gwh5-c2nslu3uf3.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\higufxz8op-m39kt2b5c9.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\s3tglgz8hr-2lgwfvgpvi.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\vw9sls9bhj-um2aeqy4ik.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\ym8tkpcl2i-wsezl0heh6.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\zzna4nrm5w-o4kw7cc6tf.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\igscs4x0yk-6ukhryfubh.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\zap00c0tb5-zwph15dxgs.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\pogzkicjpz-u33ctipx7g.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\362sl0bktu-47otxtyo56.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\vov7uhd1ha-4v8eqarkd7.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\ldxy2n3w6q-356vix0kms.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\ypthv7q62w-ay5nd8zt9x.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\t6e3b82hrf-9oaff4kq20.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\uocis9wxbx-pzqfkb6aqo.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\2tikzqlmtu-b7iojwaux1.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\9muusbdg0a-x0q3zqp4vz.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\tpsq5dibur-fwhahm2icz.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\t0qo7o574p-dd6z7egasc.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\b9lhb08218-5pze98is44.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\yfc7ypekbg-mlv21k5csn.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\8ytnvhvn2g-b9sayid5wm.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\abea17pcxr-61n19gt1b8.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\gvau32upyl-n1lzt0bmvz.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\2suqfoxwga-t1cqhe9u97.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\yteq0zy11v-c2jlpeoesf.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\6q9mip7uai-sejl45xvog.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\q5jeb5tov4-aexeepp0ev.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\65b8ww9j5q-xvp3kq03qx.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\pt6hhajbxw-ausgxo2sd3.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\exfy7z0k7x-22vffe00uq.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\c3nc9eh5y5-cosvhxvwiu.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\mw5fn338wv-qesaa3a1fm.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\8jzey3beym-fvhpjtyr6v.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\yl2dmosg87-tmc1g35s3z.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\6odjjz4cdd-fsbi9cje9m.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\xrev8j1cfy-rxsg74s51o.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\7li2msackl-ee0r1s7dh0.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\i9pkudghki-q9ht133ko3.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\3iurifhqy5-jd9uben2k1.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\l0mqfvi1we-gye83jo8yx.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\xydp2lf2ba-r4e9w2rdcm.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\9ylxf6fzwa-wl58j5mj3v.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\3smbs8egiv-c2oey78nd0.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\w59sr0jpsp-d4r6k3f320.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\kr3bnqvbr5-j5mq2jizvt.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\6lpukjuzdi-keugtjm085.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\ashttbnd7z-nvvlpmu67g.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\ujzswblavn-zub09dkrxp.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\gc72u0zwbe-pj5nd1wqec.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\yqzrqxqnj4-43atpzeawx.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\lcym1hdfiu-v0zj4ognzu.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\wcjfak4jgv-ynyaa8k90p.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\hns60nojim-hrwsygsryq.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\r3tkh8k6aj-c63t5i9ira.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\qenreideqc-ft3s53vfgj.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\9vns6ec8yn-4094rpi4f9.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\bek3h3yujf-6pdc2jztkx.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\hxrhzon71c-hd3gran6i8.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\rj8e5ngq1v-iovd86k7lj.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\v3byksjfgi-ltid2c489k.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\ce7sh81msc-kbrnm935zg.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\4jghizq228-8vyfqsqgz1.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\07b1w0w4jz-y7v9cxd14o.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\wklam0zopd-u9q1upor1n.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\vqsst85rkq-h1s4sie4z3.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\9hacq302ct-4d85u1mtcx.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\g9d9whjg5j-0j3bgjxly4.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\9ogxz478uz-03hjc8e09r.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\ijd5qtm3yk-48y08845bh.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\vrk3vhftgf-356vix0kms.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\j8r3lqghk1-83jwlth58m.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\oorravgaql-mrlpezrjn3.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\4pun1swhin-worgj0nhwm.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\0mviyz89ny-gk0pw8i4co.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\trch75k0ge-x0q3zqp4vz.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\d3j15lt4tn-d6nrnj6jjx.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\sgl5k0o9wq-m9qm4tazc0.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\vjjhrxnbey-ttgo8qnofa.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\2b660ka6mc-jjsuc0puko.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\c776ksot01-9vr69e8ynj.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\0jxty4x1gg-87fc7y1x7t.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\40civo87jh-mlv21k5csn.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\ooz5dhvnq4-6vvhpbhkjb.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\compressed\e7422r5i4t-6vvhpbhkjb.gz
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\Virtual .D6E64E75.Up2Date
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\Virtual Event Ticketing.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\refint\Virtual Event Ticketing.dll
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\Virtual Event Ticketing.pdb
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\Virtual Event Ticketing.genruntimeconfig.cache
+C:\Users\austi\RiderProjects\WebApplication1\Virtual Event Ticketing\obj\Debug\net9.0\ref\Virtual Event Ticketing.dll
